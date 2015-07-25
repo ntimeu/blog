@@ -1,6 +1,6 @@
 Title: Python - je n'y crois toujours pas
 Date: 2015-07-02 19:09
-Categories: python
+Categories: programmation
 Tags: python, programmation, projets
 Slug: python-je-n-y-crois-toujours-pas
 Author: ntimeu
