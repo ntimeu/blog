@@ -18,6 +18,7 @@ suite à un petit raz-le-bol de ce genre de problème, j'ai décidé de retourne
 ArchLinux.
 
 Mais pas n'importe comment. Donc l'installation tournera autour de :
+
 * Enlightenment (gestionnaire de fenêtres)
 * Connman (gestionnaire de connexions réseau, très bien intégré avec Enlightenment)
 
