@@ -12,24 +12,43 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'fr'
 
+# Articles configuration
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}.html'
+PAGE_URL = 'pages/{slug}.html'
+PAGE_SAVE_AS = 'pages/{slug}.html'
+CATEGORY_URL = 'categories/{slug}.html'
+CATEGORY_SAVE_AS = 'categories/{slug}.html'
+ARCHIVES_SAVE_AS = 'archives.html'
+ARCHIVES_URL = 'archives.html'
+
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+FEED_ATOM = 'feeds/atom.xml'
+FEED_RSS = 'feeds/rss.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+FEED_MAX_ITEMS = 50
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Plugins
+PLUGIN_PATHS = ['.pve/pelican/pelican-plugins']
+PLUGINS = ['liquid_tags.include_code']
+
+# Theme
+THEME = '.pve/pelican/pelican-themes/blue-penguin'
+DISPLAY_HEADER = True
+DISPLAY_FOOTER = True
+DISPLAY_HOME   = True
+DISPLAY_MENU   = True
+
+MENU_INTERNAL_PAGES = (
+    ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
+)
+
+MENUITEMS = (
+    ('GitHub', 'https://github.com/ntimeu'),
+)
