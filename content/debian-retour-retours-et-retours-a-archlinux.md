@@ -1,6 +1,6 @@
 Title: Debian - Retour, retours et retour à ArchLinux
 Date: 2015-06-01 22:41
-Category: GNU/Linux
+Category: OS
 Tags: archlinux, debian
 Slug: debian-retour-retours-et-retours-a-archlinux
 Author: ntimeu
