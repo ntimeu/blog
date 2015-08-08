@@ -40,7 +40,7 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['liquid_tags.include_code']
 
 # Theme
-THEME = 'pelican-themes/blue-penguin'
+THEME = 'blue-penguin'
 DISPLAY_HEADER = True
 DISPLAY_FOOTER = True
 DISPLAY_HOME   = True
@@ -52,4 +52,5 @@ MENU_INTERNAL_PAGES = (
 
 MENUITEMS = (
     ('GitHub', 'https://github.com/ntimeu'),
+    ('Links', 'http://links.ntimeu.fr/'),
 )
