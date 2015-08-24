@@ -16,14 +16,14 @@ Je me suis procuré une configuration [HOTAS](https://www.elitedangerous.com/fr)
 de chez Saitek (un x52 pro pour être plus précis). Reçu assez rapidement, aucun
 problème, il fonctionne très bien.
 
-Le seul petit problème vient ... Des drivers sous Windows bien sur ! Impossible
+Le seul petit problème vient ... des drivers sous Windows bien sur ! Impossible
 de les installer correctement, même en suivant les instructions à la lettre.
 
 ### Note
 
 Pour installer, il faudrait :
 
-1. ne pas brancher le HOTAS (ne le faite SURTOUT PAS AVANT)
+1. ne pas brancher le HOTAS (ne le faites SURTOUT PAS AVANT)
 2. lancer l'installation des drivers DEPUIS le site de Saitek (et uniquement
 depuis leur site, pour être sur de ne pas avoir de bugs)
 3. lorsque l'installateur vous demande de brancher le HOTAS, faites-le et
