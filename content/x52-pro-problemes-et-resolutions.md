@@ -12,7 +12,7 @@ contrôle en tant que pilote. Donc c'est plus immersif.
 
 ## Le problème
 
-Je me suis procuré une configuration [HOTAS](https://www.elitedangerous.com/fr)
+Je me suis procuré une configuration [HOTAS](https://en.wikipedia.org/wiki/HOTAS)
 de chez Saitek (un x52 pro pour être plus précis). Reçu assez rapidement, aucun
 problème, il fonctionne très bien.
 
