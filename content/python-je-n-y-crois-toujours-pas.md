@@ -13,7 +13,7 @@ v6).
 
 ### Parce que dans ce cas, il faut vérifier que l'IP ne soit pas locale !
 
-Et là, les difficultées apparaissent, il faut parser des IPs, savoir si elles
+Et là, les difficultés apparaissent, il faut parser des IPs, savoir si elles
 sont en v4 ou v6, etc ... Et là, je tombe sur le module Python
 [ipaddress](https://docs.python.org/3/library/ipaddress.html), qui fait tout ça
 pour nous ! A chaque fois que je reprends Python, je tombe sur de nouvelles
