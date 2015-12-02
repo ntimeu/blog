@@ -52,5 +52,6 @@ MENU_INTERNAL_PAGES = (
 
 MENUITEMS = (
     ('GitHub', 'https://github.com/ntimeu'),
+    ('Bitbucket', 'https://bitbucket.org/ntimeu'),
     ('Links', 'http://links.ntimeu.fr/'),
 )
