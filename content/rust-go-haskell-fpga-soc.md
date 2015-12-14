@@ -44,6 +44,7 @@ proposer aux développeurs un moyen de coder simplement tout en ayant des
 garanties sur l'utilisation de la mémoire et la synchronisation des
 ressources.
 
+
 #### On commence par le Go
 
 Le Go est un langage développé au sein de Google par des personnes assez
@@ -72,7 +73,28 @@ de versions ou des API incompatibles.
 
 En tout cas, je garde une très bonne image de ce langage, malgré ses
 quelques défauts (ah oui, j'ai oublié de parler des deux façon de faire des
-déclarations/initialisations de variables ^^).
+déclarations/initialisations de variables ^^). BTW merci à
+[Racam](https://www.racam.fr/) pourles conseils sur le Go.
 
 
 #### Et puis le Rust
+
+Après avoir bricolé quelques utilitaires en Go, je me suis dirigé vers le
+[Rust](https://www.rust-lang.org/) qui est un langage conçu par les gars de
+Mozilla (oui vous savez, ceux qui font votre meilleur ami le
+[Panda Roux](https://www.mozilla.org/en-US/)) et qui a pour objectif de
+fournir un langage avec de fortes contraintes en matière de programmation.
+
+Ici aussi il s'agit d'un langage typé statiquement et compilé, mais qui
+ajoute des idées de "prêt", de "durée de vie" des variables et de "contexte"
+qui empêchent de nombreuses erreurs dès la compilation. Avec ces concepts,
+le programmeur a des outils simples et efficaces pour créer des programmes
+sans fautes (bon après les calculs peuvent être mauvais, mais ça c'est la
+faute au codeur).
+
+C'est un très bon langage, qui dispose d'une syntaxe claire (comparable au
+C) avec des ajouts qui proviennent probablement de différents langages (oui
+Haskell, tu es visé !). L'outil Cargo (qui permet de gérer un projet et ses
+dépendances) est très complet, mais devrait (à mon sens) être intégré au
+code de Rust pour que le code soit réalisé de façon assez propre dès le
+début d'un projet.
