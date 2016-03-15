@@ -53,3 +53,6 @@ MENU_INTERNAL_PAGES = (
 MENUITEMS = (
     ('Git', 'https://git.ntimeu.fr/ntimeu'),
 )
+
+CODE_DIR = 'code'
+STATIC_PATHS = ['images', 'code']
