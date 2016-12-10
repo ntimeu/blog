@@ -40,11 +40,11 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['liquid_tags.include_code']
 
 # Theme
-THEME = 'blue-penguin'
-DISPLAY_HEADER = True
-DISPLAY_FOOTER = True
-DISPLAY_HOME   = True
-DISPLAY_MENU   = True
+#THEME = 'blue-penguin'
+#DISPLAY_HEADER = True
+#DISPLAY_FOOTER = True
+#DISPLAY_HOME   = True
+#DISPLAY_MENU   = True
 
 MENU_INTERNAL_PAGES = (
     ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
