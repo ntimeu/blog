@@ -60,3 +60,6 @@ target/
 # Pelican output
 output/
 .pelican/
+
+# Virtualenv
+venv/
