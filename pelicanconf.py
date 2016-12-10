@@ -46,10 +46,6 @@ PLUGINS = ['liquid_tags.include_code']
 #DISPLAY_HOME   = True
 #DISPLAY_MENU   = True
 
-MENU_INTERNAL_PAGES = (
-    ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
-)
-
 MENUITEMS = (
     ('Git', 'https://git.ntimeu.fr/ntimeu'),
     ('Links', 'http://links.ntimeu.fr/'),
