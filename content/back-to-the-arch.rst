@@ -82,7 +82,7 @@ Outils
 ======
 
 Grosse formation à Buildroot_ et Yocto_. Enfin par Yocto je parle surtout
-d'OpenEmbedded_, Yocto étant seulement un utilisateur de la distribution de
+d'OpenEmbedded_, qui est utilisé par Yocto pour produire une distribution de
 base. Je reste tout de même fidèle à Buildroot_, qui est plus simple à prendre
 en main et plus léger à l'utilisation.
 
