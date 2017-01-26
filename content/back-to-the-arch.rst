@@ -37,7 +37,7 @@ Bon, retour sur ArchLinux_ qui reste ainsi ma distribution préférée. On retro
 notamment :
 
 * ConnMan_ pour la gestion de la partie réseau. Effectivement, j'aurais pu
-  install NetworkManager, mais bon pour l'usage que j'en ait ... En plus ça
+  installer NetworkManager, mais bon pour l'usage que j'en ait ... En plus ça
   marche très bien
 * i3_ reste l'environnement graphique
 * Vim_ l'éditeur préféré. Passage par Vundle_ pour la gestion des plugins. Et en
@@ -57,7 +57,7 @@ Langages
 ========
 
 Haskell => poubelle, je reste pour l'instant sur C++ et Rust. Ca marche, c'est
-efficace (le C++ moderne est une tuerie, mais reste malgré tout en deça des
+efficace (le C++ moderne est une tuerie, mais reste malgré tout en deçà des
 capacités du Rust), les performances sont bonnes, les langages sont élégants.
 
 Je me suis formé sur cmake_, maintenant quand C++ il y a besoin, CMake est
