@@ -60,8 +60,6 @@ Résultat ? Votre code est plus sûr par défaut. Ah, et lorque la variable
 déclarée n'est pas utiliseé mais tout de même déclarée en constante, rust vous
 le dit en warning.
 
-.. __: https://doc.rust-lang.org/stable/book/mutability.html
-
 
 Les chaînes de caractères
 -------------------------
@@ -75,8 +73,6 @@ Si vous arrivez à faire de l'UTF-8 de façon transparente en C++ simplement,
 sans se prendre la tête et sans bibliothèque externe, appelez-moi. Ah et il est
 possible de manipuler de façon très efficace ces tableaux de char, via le type
 &str (qui est constant en plus).
-
-.. __: https://doc.rust-lang.org/stable/book/strings.html
 
 
 Les types
@@ -94,8 +90,6 @@ de bits dans leur nom :
 Si besoin il y a usize et isize pour des types dépendants de l'architecture. Et
 en mode débug les entiers émettent une erreur en cas de dépassement
 de leur capacité (genre stocker 255+1 dans un u8).
-
-.. __: https://doc.rust-lang.org/stable/book/primitive-types.html
 
 
 La durée de vie
@@ -117,10 +111,6 @@ En C++ c'est possible à coup de unique_ptr et de shared_ptr, mais jusqu'à
 aujourd'hui la plupart des cours d'introduction au C++ ne présentent pas ce
 point. Donc on se retrouve avec beaucoup de nouveaux développeurs C++ qui font
 du "C with classes". Et donc avec beaucoup de bugs.
-
-.. __: https://doc.rust-lang.org/stable/book/ownership.html
-.. __: https://doc.rust-lang.org/stable/book/references-and-borrowing.html
-.. __: https://doc.rust-lang.org/stable/book/lifetimes.html
 
 
 La bibliothèque standard
