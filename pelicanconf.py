@@ -40,6 +40,7 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['liquid_tags.include_code']
 
 # Theme
+THEME = 'pelican-alchemy/alchemy'
 #THEME = 'blue-penguin'
 #DISPLAY_HEADER = True
 #DISPLAY_FOOTER = True
@@ -47,8 +48,6 @@ PLUGINS = ['liquid_tags.include_code']
 #DISPLAY_MENU   = True
 
 MENUITEMS = (
-    ('Git', 'https://git.ntimeu.fr/ntimeu'),
-    ('Links', 'http://links.ntimeu.fr/'),
 )
 
 CODE_DIR = 'code'
