@@ -6,7 +6,7 @@ Joystick Saitek, quand ça veut pas ...
 :tags: games, jeux, hardware
 :slug: joystick-saitek-quand-ca-veut-pas
 :author: ntimeu
-:summary: comment faire fonctionner un X52 Pro
+:summary: Comment faire fonctionner un X52 Pro.
 
 1. désactiver l'xHCI dans l'UEFI de la carte mère
 2. installer les drivers pour le HOTAS
