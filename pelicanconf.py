@@ -22,7 +22,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),)
+LINKS = (('Atom', 'http://www.ntimeu.fr/feeds/all.atom.xml'),
+         ('RSS', 'http://www.ntimeu.fr/feeds/all.rss.xml'))
 
 DEFAULT_PAGINATION = 10
 
