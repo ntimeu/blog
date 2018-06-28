@@ -20,4 +20,8 @@ Gogs, et l'interface est beaucoup plus propre, les développeurs ont fait un
 travail remarquable ! J'espère que ça va continuer, et que le service va
 s'améliorer de jours en jours !
 
-Pour y accéder, [c'est par ici](https://git.ntimeu.fr/) !
+Pour y accéder, c'est par ici !
+
+EDIT du 08/06/2018: le serveur Gogs a été arrêté depuis longtemps. Pour
+simplifier la config, je me suis configuré un petit gitolite (sans interface
+web & autres plugins) pour alléger le tout.
