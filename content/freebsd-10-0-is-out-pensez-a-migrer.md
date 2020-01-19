@@ -1,9 +1,7 @@
-Title: FreeBSD 10.0 is out - Pensez à migrer !
-Date: 2014-01-22 21:33
-Category: OS
-Tags: BSD, FreeBSD, sécurité
-Slug: freebsd-10-0-is-out-pensez-a-migrer
-Author: ntimeu
+---
+title: "FreeBSD 10.0 is out - Pensez à migrer !"
+date: 2014-01-22T21:33:00+01:00
+---
 
 Au menu de cette nouvelle version :
 

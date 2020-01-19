@@ -1,9 +1,7 @@
-Title: SystemC - mon C++ pour un SoC !
-Date: 2015-04-15 16:30
-Category: programmation
-Tags: programmation, c++, systemc, projets, bricolage, chroneek
-Slug: systemc-mon-cpp-pour-un-soc
-Author: ntimeu
+---
+title: "SystemC - mon C++ pour un SoC !"
+date: 2015-04-15T16:30:00+01:00
+---
 
 Depuis quelques temps, je m'intéresse de plus en plus à la conception de
 matériel et je m'attarde principalement sur le fonctionnement des CPUs et

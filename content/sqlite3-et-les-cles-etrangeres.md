@@ -1,9 +1,7 @@
-Title: SQlite3 et les clés étrangères
-Date: 2015-03-17 19:43
-Category: programmation
-Tags: programmation, sqlite, bricolage
-Slug: sqlite3-et-les-cles-etrangeres
-Author: ntimeu
+---
+title: "SQlite3 et les clés étrangères"
+date: 2015-03-17T19:43:00+01:00
+---
 
 Aujourd'hui en expérimentant un design de base de données avec SQLite, je me
 suis aperçu que les clés étrangères (FOREIGN KEY) n'étaient pas vérifiées lors

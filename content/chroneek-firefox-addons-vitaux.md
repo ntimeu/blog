@@ -1,9 +1,7 @@
-Title: Chroneek - Firefox, addons vitaux
-Date: 2014-08-12 00:01
-Category: OS
-Tags: GNU/Linux, programmation, sécurité, archlinux, chroneek
-Slug: chroneek-firefox-addons-vitaux
-Author: ntimeu
+---
+title: "Chroneek - Firefox, addons vitaux"
+date: 2014-08-12T00:01:00+01:00
+---
 
 On continue sur les articles liés à ArchLinux, et dans celui-ci je vais
 présenter [Firefox](https://www.mozilla.org/en-US/firefox/new/), enfin plutôt

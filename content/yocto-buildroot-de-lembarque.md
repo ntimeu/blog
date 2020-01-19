@@ -1,9 +1,7 @@
-Title: Yocto et Buildroot - Les distributions de l'embarqué !
-Date: 2016-05-21 15:45
-Categories: embarqué
-Tags: programmation, projets, linux, kernel
-Slug: yocto-buildroot-de-lembarque
-Author: ntimeu
+---
+title: "Yocto et Buildroot - Les distributions de l'embarqué !"
+date: 2016-05-21T15:45:00+01:00
+---
 
 Dans le monde de l'embarqué, il est assez complexe de construire un système
 complet (bootloader + noyau + espace utilisateur). De plus le maintenir est

@@ -1,9 +1,7 @@
-Title: Saitek x52 pro - Problèmes et résolutions
-Date: 2015-08-23 20:08
-Category: jeux
-Tags: jeux, games
-Slug: x52-pro-problemes-et-resolutions
-Author: ntimeu
+---
+title: "Saitek x52 pro - Problèmes et résolutions"
+date: 2015-08-23T20:08:00+01:00
+---
 
 Bon, pour petite info je me suis mis à
 [Elite : Dangerous](https://www.elitedangerous.com/fr). C'est un peu comme Eve

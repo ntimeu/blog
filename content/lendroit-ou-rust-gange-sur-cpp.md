@@ -1,39 +1,34 @@
-L'endroit où Rust gagne sur le C++
-##################################
-
-:date: 2017-02-06 19:00
-:category: programmation
-:tags: programmation, Rust, C++
-:slug: lendroit-ou-rust-gagne-cpp
-:author: ntimeu
+---
+title: "L'endroit où Rust gagne sur le C++"
+date: 2017-02-06T19:00:00+01:00
+---
 
 
-Const-correctness
------------------
+## Const-correctness
 
 En C++, la déclaration d'une variable est par défaut non constante, c'est-à
 dire qu'elle est modifiable par défaut.
 
-.. code-block:: c++
-
+{{< highlight cpp >}}
     int i = 0;
     i++; /** It works */
+{{< / highlight >}}
 
 Très souvent, il est possible de déclarer la variable en tant que constante :
 
-.. code-block:: c++
-
+{{< highlight cpp >}}
     const int i = retour_dune_fonction(...);
     if (i != ...)
         ...
+{{< / highlight >}}
 
 Si la variable n'a pas à être modifiée, il faut utiliser ce const. Sauf que
 bien généralement, personne ne l'utilise. Pire encore, il arrive des endroits
 où l'on utilise des pointeurs constants ! Exemple :
 
-.. code-block:: c++
-
+{{< highlight cpp >}}
     const unsigned long long int* p = &variable_contenant_un_entier;
+{{< / highlight >}}
 
 Faites l'exercice : qu'est-ce qui est constant ici ? Le pointeur ou la valeur
 pointée par le pointeur ? Si vous ne le savez pas (ou que vous essayez de vous
@@ -61,8 +56,7 @@ déclarée n'est pas utiliseé mais tout de même déclarée en constante, rust 
 le dit en warning.
 
 
-Les chaînes de caractères
--------------------------
+## Les chaînes de caractères
 
 En C++, une chaîne de caractère (la classe std::string hein, pas char[]) est un
 tableau de char. En C/C++, un char est un octet. Un octet, c'est l'alphabet
@@ -75,8 +69,7 @@ possible de manipuler de façon très efficace ces tableaux de char, via le type
 &str (qui est constant en plus).
 
 
-Les types
----------
+## Les types
 
 Plutôt que d'avoir des types dont on ne connait jamais la taille (unsigned lont
 int, quand tu nous tiens ...) à moins de connaître l'architecture de
@@ -92,8 +85,7 @@ en mode débug les entiers émettent une erreur en cas de dépassement
 de leur capacité (genre stocker 255+1 dans un u8).
 
 
-La durée de vie
----------------
+## La durée de vie
 
 En Rust chaque variable a une durée de vie : si vous déclarez une variable
 locale, que vous passez un pointeur de cette variable à une autre fonction qui
@@ -113,8 +105,7 @@ point. Donc on se retrouve avec beaucoup de nouveaux développeurs C++ qui font
 du "C with classes". Et donc avec beaucoup de bugs.
 
 
-La bibliothèque standard
-------------------------
+## La bibliothèque standard
 
 Depuis le standard C++11, on commence à voir arriver des jolies choses comme
 une bibliothèque de thread mieux conçue, des containeurs très pratiques dans la
@@ -123,17 +114,16 @@ système de fichiers (notez que pour les deux derniers points on les attend lors
 du C++17, qui devrait sortir l'année de publication de cet article). C'est
 cool.
 
-En Rust, `la bibliothèque standard <https://doc.rust-lang.org/stable/std/>`_
+En Rust, [la bibliothèque standard](https://doc.rust-lang.org/stable/std/)
 est déjà bien fournie, avec la plupart des APIs déjà standardisées. Oh et en
 plus de la bilbiothèque de manipulation des fichiers déjà prête, on peut
 manipuler le réseau en standard (indépendamment de l'architecture) et avec la
 couche de sécurité du langage (durée de vie des variables, etc).
 
 
-Les outils fournis par défaut
------------------------------
+## Les outils fournis par défaut
 
-`Cargo <http://doc.crates.io/>`_ est le gestionnaire de projets de Rust. Il
+[Cargo](http://doc.crates.io/) est le gestionnaire de projets de Rust. Il
 gère les dépendances, la compilation, le lancement des tests et la génération
 de la doc. Tout est standardisé et clairement exprimé. Et c'est super léger.
 

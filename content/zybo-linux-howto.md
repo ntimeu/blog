@@ -1,9 +1,7 @@
-Title: Le projet sur la carte Zybo
-Date: 2016-01-18 19:00
-Categories: zybo
-Tags: programmation, projets, linux, kernel
-Slug: le-projet-sur-la-zybo
-Author: ntimeu
+---
+title: "Le projet sur la carte Zybo"
+date: 2016-01-18T19:00:00+01:00
+---
 
 ## Bon alors
 

@@ -1,9 +1,7 @@
-Title: Debian - Retour, retours et retour à ArchLinux
-Date: 2015-06-01 22:41
-Category: OS
-Tags: archlinux, debian
-Slug: debian-retour-retours-et-retours-a-archlinux
-Author: ntimeu
+---
+title: "Debian - Retour, retours et retour à ArchLinux"
+date: 2015-06-01T22:41:00+01:00
+---
 
 Dans mon article précédent, j'expliquais pourquoi (de façon évasive) j'avais
 pris la décision d'aller sous Debian.

@@ -1,9 +1,7 @@
-Title: Chroneek - un os, des os
-Date: 2014-10-20 22:01
-Category: programmation
-Tags: programmation, chroneek
-Slug: chroneek-un-os-des-os
-Author: ntimeu
+---
+title: "Chroneek - un os, des os"
+date: 2014-10-20T22:01:00+01:00
+---
 
 Alors pour aujourd'hui, une petite explication sur comment fonctionne un
 système d'exploitation, et tout celà grace à une image : "Programmer un OS,

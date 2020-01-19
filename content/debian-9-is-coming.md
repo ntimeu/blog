@@ -1,13 +1,7 @@
-Debian 9 is coming
-##################
-
-:date: 2017-06-03 15:00:00
-:tags: misc, distribution
-:category: OS
-:slug: debian-9-is-coming
-:author: ntimeu
-:summary: Debian 9 (aka Stretch) est prévue pour le 17 juin 2017. Petit tour
-          des nouveautés intéressantes.
+---
+title: "Debian 9 is coming"
+date: 2017-06-03T15:00:00+01:00
+---
 
 Ma distribution serveur et bureau préférée va bientôt sortir en version 9.
 

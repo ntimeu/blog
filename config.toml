@@ -1,0 +1,16 @@
+baseURL = "http://www/ntimeu.fr/"
+languageCode = "fr-fr"
+title = "N0Timeu's website"
+theme = "tale"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+	guessSyntax = false
+	hl_Lines = ""
+	lineNoStart = 1
+	lineNos = true
+	lineNumbersInTable = true
+	noClasses = true
+	style = "monokai"
+	tabWidth = 4

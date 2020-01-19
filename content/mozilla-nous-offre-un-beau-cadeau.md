@@ -1,9 +1,7 @@
-Title: Mozilla nous offre un beau cadeau (en avance)
-Date: 2015-12-16 12:32
-Category: libre
-Tags: programmation, libre, firefox
-Slug: mozilla-nous-offre-un-beau-cadeau
-Author: ntimeu
+---
+title: "Mozilla nous offre un beau cadeau (en avance)"
+date: 2015-12-16T12:32:00+01:00
+---
 
 (oui je sais, pluie d'articles depuis deux jours, mais ça fait du bien).
 

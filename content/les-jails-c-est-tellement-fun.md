@@ -1,9 +1,7 @@
-Title: Les jails - C'est tellement fun !
-Date: 2013-12-07 15:15
-Category: OS
-Tags: FreeBSD, sécurité
-Slug: les-jails-c-est-tellement-fun
-Author: ntimeu
+---
+title: "Les jails - C'est tellement fun !"
+date: 2013-12-07T15:15:00+01:00
+---
 
 Pourquoi les jails ? Parce que c'est ma solution préférée : simple, longue à
 déployer mais efficace par la suite. Et puis ça tourne sous mon FreeBSD !

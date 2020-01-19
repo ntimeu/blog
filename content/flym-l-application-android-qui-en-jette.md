@@ -1,8 +1,7 @@
-Title: Flym - L'application Android qui en jette
-Date: 2015-02-17 16:47
-Tags: chroneek
-Slug: flym-l-application-android-qui-en-jette
-Author: ntimeu
+---
+title: "Flym - L'application Android qui en jette"
+date: 2015-02-17T16:47:00+01:00
+---
 
 [Flym (Google Play)](https://play.google.com/store/apps/details?id=net.fred.feedex)
 ou [Flym (F-Droid)](https://f-droid.org/repository/browse/?fdfilter=Flym&fdid=net.fred.feedex)

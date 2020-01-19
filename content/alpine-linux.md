@@ -1,9 +1,7 @@
-Title: Alpine Linux
-Date: 2016-04-10 22:07
-Categories: GNU/Linux
-Tags: Linux, gnu, linux, distribution
-Slug: alpine-linux
-Author: ntimeu
+---
+title: "Alpine Linux"
+date: 2016-04-10T22:07:00+01:00
+---
 
 Retour d'un article, après quelques temps (oui mon dernier article date de mars
 mais bon, pas vraiment le temps et l'envie).

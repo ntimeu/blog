@@ -1,18 +1,12 @@
-Setup Firefox efficace de 2018
-########################################################
-
-:date: 2018-06-28 18:30
-:category: firefox
-:tags: chroneek, informatique, os, debian, archlinux, libre, linux, firefox
-:slug: firefox-config-2018
-:author: ntimeu
-:summary: Récapitulatif des modules installés pour avoir la paix sur le web.
+---
+title: "Setup Firefox efficace de 2018"
+date: 2018-06-28T18:30:00+01:00
+---
 
 Oui, je reste sous Firefox, je n'irais pas sous Chrome ou autres.
 
 
-Addons
-======
+# Addons
 
 * *µBlock Origin/µMatrix* : indispensables. Les deux sont configurés en mode
   "whitelist" uniquement (ils n'autorisent que les sites configurés
@@ -50,8 +44,7 @@ C'est tout. Vu que ces extensions sont des WebExtensions, c'est léger, ça va
 vite, ne nécessitent pas de redémarrage, sont simples et efficaces.
 
 
-Customisation de l'interface
-============================
+# Customisation de l'interface
 
 * retour avant/arrière
 * barre de navigation
@@ -68,8 +61,7 @@ Mettez le thème dark (plus agréable, notamment le soir ou dans des endroits ma
 éclairés), et passez en densité compacte (plus de place gagnée !!).
 
 
-Options
-=======
+# Options
 
 * on peut utiliser les polices Noto (évite le tofu)
 * virer le spelling, passer la langue en anglais (pour éviter les sites mal
@@ -85,8 +77,7 @@ Options
   navigateur pour Mr Robot, par exemple), je m'en passe volontiers
 
 
-Certificats SSL
-===============
+# Certificats SSL
 
 Si vous vous sentez suffisamment à l'aise, vous pouvez faire un tour dans les
 certificats, et ôter la confiance à pas loin de 50% des certificats installés.

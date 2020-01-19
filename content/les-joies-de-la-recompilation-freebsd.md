@@ -1,9 +1,7 @@
-Title: Les joies de la recompilation - FreeBSD
-Date: 2013-12-03 18:35
-Category: OS
-Tags: FreeBSD
-Slug: les-joies-de-la-recompilation-freebsd
-Author: ntimeu
+---
+title: "Les joies de la recompilation - FreeBSD"
+date: 2013-12-03T18:35:00+01:00
+---
 
 # Ah ... Recompiler son noyau FreeBSD, les joies du redémarrage impossible ...
 

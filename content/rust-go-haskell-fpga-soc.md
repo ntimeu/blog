@@ -1,9 +1,7 @@
-Title: Rust, Go, Haskell, FPGA et SoC - Le bazar de cette fin d'année
-Date: 2015-12-14 17:00
-Category: programmation
-Tags: programmation, hardware
-Slug: rust-go-haskell-fpga-soc
-Author: ntimeu
+---
+title: "Rust, Go, Haskell, FPGA et SoC - Le bazar de cette fin d'année"
+date: 2015-12-14T17:00:00+01:00
+---
 
 Bon, voila un paquet de temps que je n'ai pas posté d'articles sur le blog,
 à la fois par manque de temps et surtout par manque d'envie. Vu la quantité

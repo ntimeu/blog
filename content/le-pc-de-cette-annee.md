@@ -1,9 +1,7 @@
-Title: Le PC de cette année
-Date: 2015-09-16 18:00
-Category: blog
-Tags: blog, réflexion, informatique
-Slug: le-pc-de-cette-annee
-Author: ntimeu
+---
+title: "Le PC de cette année"
+date: 2015-09-16T18:00:00+01:00
+---
 
 Cette fois-ci un petit article (avec réflexion intégrée, on recommence bientôt
 les cours tout de même) sur ce que j'aimerais voir apparaître cette année sur

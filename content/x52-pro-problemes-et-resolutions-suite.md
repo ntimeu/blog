@@ -1,9 +1,7 @@
-Title: Saitek x52 pro - Problèmes et résolutions (suite)
-Date: 2015-08-29 16:15
-Category: jeux
-Tags: jeux, games
-Slug: x52-pro-problemes-et-resolutions-suite
-Author: ntimeu
+---
+title: "Saitek x52 pro - Problèmes et résolutions (suite)"
+date: 2015-08-29T16:15:00+01:00
+---
 
 Bon, suite à mon article précédent sur le
 [Saitek x52 pro](http://www.saitek.com/uk/prod/x52pro.html), j'ai pu jouer avec

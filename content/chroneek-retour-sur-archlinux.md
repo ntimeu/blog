@@ -1,9 +1,7 @@
-Title: Chroneek - Retour sur ArchLinux
-Date: 2014-08-12 00:00
-Category: OS
-Tags: GNU/Linux, archlinux, chroneek
-Slug: chroneek-retour-sur-archlinux
-Author: ntimeu
+---
+title: "Chroneek - Retour sur ArchLinux"
+date: 2014-08-12T00:00:00+01:00
+---
 
 Après plusieurs années passées sous OpenBSD et Debian, le grand retour sur
 ArchLinux !

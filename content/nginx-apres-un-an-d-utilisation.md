@@ -1,9 +1,7 @@
-Title: Nginx - Après un an d'utilisation
-Date: 2014-09-04 15:53
-Category: GNU/Linux
-Tags: bsd, gnu-linux, concurrence
-Slug: nginx-apres-un-an-d-utilisation
-Author: ntimeu
+---
+title: "Nginx - Après un an d'utilisation"
+date: 2014-09-04T15:53:00+01:00
+---
 
 Nginx, je l'avais déjà évoqué lors de mon billet sur les Kernel Queues. C'est
 un serveur haute performance capable de faire office de serveur web, de reverse

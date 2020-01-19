@@ -1,9 +1,7 @@
-Title: ArchLinux, c'est fini ... Bonjour Debian 8 !
-Date: 2015-04-26 20:31
-Category: GNU/Linux
-Tags: debian, archlinux
-Slug: archlinux-c-est-fini-bonjour-debian-8
-Author: ntimeu
+---
+title: "ArchLinux, c'est fini ... Bonjour Debian 8 !"
+date: 2015-04-26T20:31:00+01:00
+---
 
 Suite à plusieurs problèmes liés à ArchLinux (wifi majoritairement), j'ai
 décidé de changer.

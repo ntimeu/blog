@@ -1,9 +1,7 @@
-Title:  Gogs et git
-Date: 2016-02-05 17:00
-Categories: serveur
-Tags: programmation, projets, git, hosting
-Slug: gogs-git
-Author: ntimeu
+---
+title:  "Gogs et git"
+date: 2016-02-05T17:00:00+01:00
+---
 
 ## On s'auto-héberge sous Gogs !
 

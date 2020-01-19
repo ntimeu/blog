@@ -1,9 +1,7 @@
-Title: Chroneek Firefox - gros nettoyage de printemps
-Date: 2016-04-11 18:30
-Category: OS
-Tags: GNU/Linux, programmation, sécurité, archlinux, firefox, chroneek
-Slug: firefox-gros-nettoyage-de-printemps
-Author: ntimeu
+---
+title: "Chroneek Firefox - gros nettoyage de printemps"
+date: 2016-04-11T18:30:00+01:00
+---
 
 Petit article sur la configuration de mon Firefox préféré. En trois mots :
 sécurité, vie privée et simplicité !

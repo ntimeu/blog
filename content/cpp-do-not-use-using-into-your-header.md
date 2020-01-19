@@ -1,10 +1,7 @@
-C++ - do not use using into your header configuration
-#####################################################
-:date: 2015-04-20 22:16:00
-:tags: c++, programmation
-:category: programmation
-:slug: cpp-do-not-use-using-into-your-header
-:author: ntimeu
+---
+title: "C++ - do not use using into your header configuration"
+date: 2015-04-20T22:16:00+01:00
+---
 
 On utilise souvent la directive "using namespace" en C++ pour éviter d'ajouter
 le nom de l'espace de nom pour accéder à ce qu'il contient (classe, fonction,
@@ -21,38 +18,39 @@ tenté d'utiliser la directive using pour ne pas retaper l'espace de nom avant
 de taper le type. Le seul problème, c'est que le faire dans un header, c'est
 une TRES mauvaise idée : je m'explique.
 
-.. code-block:: cpp
-    
-    #include <iostream>
+{{< highlight cpp >}}
+#include <iostream>
 
-    using namespace std;
+using namespace std;
 
-    int main()
-    {
-        cout << "Salut" << endl;
-        return 0;
-    }
+int main()
+{
+    cout << "Salut" << endl;
+    return 0;
+}
+{{< / highlight >}}
 
 Le code est lisible, simple et léger. Sauf que si vous avez dans un espace de
 nom (que vous aurez évidemment nommé monnamespaceinutile pour coller à
 l'exemple) autre que celui d'iostream et qui contient cout et endl, alors plus
 rien ne va ! Explications :
 
-.. code-block:: cpp
 
-    #ifndef CLASSE_INUTILE
-    #define CLASSE_INUTILE
+{{< highlight cpp >}}
+#ifndef CLASSE_INUTILE
+#define CLASSE_INUTILE
 
-    #include "monnamespaceinutile.h"
+#include "monnamespaceinutile.h"
 
-    using namespace monnamespaceinutile;
+using namespace monnamespaceinutile;
 
-    class ClasseInutile
-    {
-        ...
-    };
+class ClasseInutile
+{
+    ...
+};
 
-    #endif
+#endif
+{{< / highlight >}}
 
 
 Sauf que si vous incluez ce header dans un autre fichier, et que vous essayez
@@ -64,8 +62,7 @@ dans un header qui peut être inclus !
 En plus, préciser le nom de l'espace de nom permet de comprendre directement à
 quelle bibliothèque appartient la fonction/classe.
 
-Concernant SystemC
-------------------
+## Concernant SystemC
 
 SystemC a une petite capacité intéressante et fatigante à la fois : il y a deux
 headers, systemc.h et systemc ! Et le problème, c'est que systemc.h pose le

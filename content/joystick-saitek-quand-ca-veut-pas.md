@@ -1,12 +1,7 @@
-Joystick Saitek, quand ça veut pas ...
-######################################
-
-:date: 2017-03-05 22:00
-:category: jeux
-:tags: games, jeux, hardware
-:slug: joystick-saitek-quand-ca-veut-pas
-:author: ntimeu
-:summary: Comment faire fonctionner un X52 Pro.
+---
+title: "Joystick Saitek, quand ça veut pas ..."
+date: 2017-03-05T22:00:00+01:00
+---
 
 1. désactiver l'xHCI dans l'UEFI de la carte mère
 2. installer les drivers pour le HOTAS
@@ -17,10 +12,10 @@ Joystick Saitek, quand ça veut pas ...
     * passer en vue grille
     * spprimer toutes les colonnes (sauf la première)
     * déprogrammer tous les boutons
-    
+
 5. Lancez le gestionnaire de profils (qui devrait se lancer dans la barre
     des tâches)
-    
+
     * clic droit sur l'icône -> configuration
     * onglet MFD
     * décocher la case "enable Clutch mode"

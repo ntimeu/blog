@@ -1,9 +1,7 @@
-Title: OpenBSD 5.5 est sorti - Mise à jour, nouveautés
-Date: 2014-05-03 18:55
-Category: OS
-Tags: BSD, OpenBSD, sécurité
-Slug: openbsd-5-5-est-sorti-mise-a-jour-nouveaute
-Author: ntimeu
+---
+title: "OpenBSD 5.5 est sorti - Mise à jour, nouveautés"
+date: 2014-05-03T18:55:00+01:00
+---
 
 Au menu, de nouveaux drivers (pilotes de périphériques) ont été ajoutés,
 notamment au niveau de VMWare, VirtIO (pilotes dédiés aux entrées/sorties

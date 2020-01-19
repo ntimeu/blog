@@ -1,9 +1,7 @@
-Title: Elite : Dangerous - Mon jeu de l'année
-Date: 2015-12-16 11:22
-Category: jeux
-Tags: jeux, games
-Slug: elite-dangerous-mon-jeu-de-lannee
-Author: ntimeu
+---
+title: "Elite : Dangerous - Mon jeu de l'année"
+date: 2015-12-16T11:22:00+01:00
+---
 
 Depuis quelques temps je me suis mis à jouer à Elite : Dangerous, un jeu se
 déroulant dans l'espace

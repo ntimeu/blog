@@ -1,9 +1,7 @@
-Title: Le point tech
-Date: 2015-11-04 16:00
-Categories: programmation
-Tags: Linux, programmation
-Slug: le-point-tech
-Author: ntimeu
+---
+title: "Le point tech"
+date: 2015-11-04T16:00:00+01:00
+---
 
 Bon après quelques temps passés sans activité sur le blog, retour sur les
 petites améliorations technologiques qui sont apparues récemment.
