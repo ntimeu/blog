@@ -7,6 +7,5 @@ for more informations), and the content is released under a
 
 ## Installing
 
-1. pyvenv-3.5 venv
-2. source venv/bin/activate
-3. pip install -r requirements.txt
+1. install [Hugo](https://gohugo.io/)
+2. hugo -D
