@@ -5,5 +5,5 @@ RUN git clone --recursive --depth=1 https://github.com/ntimeu/blog.git
 WORKDIR /tmp/blog
 RUN hugo -D
 
-FROM nginx:alpine
+FROM nginx:1.17.8
 COPY --from=builder /tmp/blog/public /usr/share/nginx/html
